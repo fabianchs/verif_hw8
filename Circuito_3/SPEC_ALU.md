@@ -72,11 +72,3 @@
     y `CF=1`.
  - SHL: si `A=0x0080` y desplazamos 1, sale `R1=0x0100`.
 
- ## Limitaciones 
- - Algunas operaciones (p. ej. división) tardan varios ciclos.
- - El registro de banderas se actualiza según la operación y `WR`.
- - Los resultados pueden venir de distintos bloques (por eso hay
-    multiplexores) y a veces hay señales auxiliares que controlan eso.
- - Si no se toma en cuenta el timing otras operaciones pueden terminar fuera de ejecución de otras
-
- ---
